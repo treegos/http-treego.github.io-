@@ -289,8 +289,22 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      toc_ads: true
+      toc_sticky: true
 
-theme: jekyll-theme-slate
+      #  # _pages
+      #  - scope:
+      #      path: ""
+      #      type: pages
+      #     values:
+      #      layout: single
+      #      author_profile: true
+      #      read_time: false
+      #      comments: true
+      #      share: true
+      #      related: false
+
+  # theme: jekyll-theme-slate
